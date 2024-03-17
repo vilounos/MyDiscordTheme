@@ -1,0 +1,29 @@
+/**
+ * @name .vilounos
+ * @author vilounos
+ * @version 9.9.9
+ * @description I can customize it!
+ * @source https://github.com/vilounos
+ */
+
+@import url('https://raw.githack.com/vilounos/MyDiscordTheme/main/transparency2.css');
+@import url('https://raw.githack.com/vilounos/MyDiscordTheme/main/core.css');
+
+:root{
+    --background: url('https://raw.githack.com/vilounos/MyDiscordTheme/main/NinjaGirl1.png');
+    --activetext-colour: white;
+
+    --primary1-colour: red;
+    --primary2-colour: rgba(255,0,0,0.5);
+    --primary3-colour: rgba(100, 0, 0, 0.315);
+
+    --secondary1-colour: rgba(58, 9, 9, 0);
+    --secondary2-colour: rgba(92, 56, 56, 0.5);
+    --secondary3-colour: rgba(46, 0, 0, 0.178);
+
+    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
