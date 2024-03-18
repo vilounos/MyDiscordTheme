@@ -9,7 +9,7 @@
 
 .theme-dark{
     /*change last value from 0.0-1.0 to adjust brightness*/
-  --background-tertiary: rgba(25, 25, 25, 0.70); 
+  --background-tertiary: rgba(25, 25, 25, 0.1); 
   --background-primary: transparent;
   --background-secondary: transparent;
   --background-secondary-alt: transparent;
