@@ -9,21 +9,50 @@
 @import url('https://raw.githack.com/vilounos/MyDiscordTheme/main/transparency2.css');
 @import url('https://raw.githack.com/vilounos/MyDiscordTheme/main/core.css');
 
-:root{
-    --background: url('https://raw.githack.com/vilounos/MyDiscordTheme/main/NinjaGirl1.png');
+:root {
+    /* Write //--background: .... when you want to see video */
+    --background: url('https://raw.githack.com/vilounos/MyDiscordTheme/main/Girl-Right3.png');
     --activetext-colour: white;
-
     --primary1-colour: red;
     --primary2-colour: rgba(255,0,0,0.5);
     --primary3-colour: rgba(100, 0, 0, 0.315);
-
     --secondary1-colour: rgba(58, 9, 9, 0);
-    --secondary2-colour: rgba(92, 56, 56, 0.5);
-    --secondary3-colour: rgba(46, 0, 0, 0.178);
-
+    --secondary2-colour: rgba(92, 56, 56, 0.308);
+    --secondary3-colour: rgba(46, 0, 0, 0.164);
     --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-2: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0,0,0,0.5));
+    --transparency-3: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0,0,0,0.5));
+    --transparency-4: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0,0,0,0.5));
+    --transparency-5: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0,0,0,0.5));
+
+
+    
+
 }
+.theme-dark{
+    /*change last value from 0.0-1.0 to adjust brightness*/
+  --background-tertiary: rgba(25, 25, 25, 0); 
+  --background-primary: transparent;
+  --background-secondary: transparent;
+  --background-secondary-alt: transparent;
+  --channeltextarea-background: transparent;
+  }
+
+  .wrapper-3NnKdC,
+  .scroller-1Bvpku,
+  .app-2rEoOp,
+  .theme-dark .container-1D34oG{
+    background: transparent;
+  }
+
+  .fullscreen-bg video,
+  .fullscreen-bg-video{
+    position: fixed;
+    top: 50%; left: 50%;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+  }
