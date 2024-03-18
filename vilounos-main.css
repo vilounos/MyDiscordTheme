@@ -7,10 +7,10 @@
  */
 
 @import url('https://raw.githack.com/vilounos/MyDiscordTheme/main/transparency2.css');
+    /* Write // at the start of the next line when you want to see video */
 @import url('https://raw.githack.com/vilounos/MyDiscordTheme/main/core.css');
 
 :root {
-    /* Write //--background: .... when you want to see video */
     --background: url('https://raw.githack.com/vilounos/MyDiscordTheme/main/Girl-Right3.png');
     --activetext-colour: white;
     --primary1-colour: red;
