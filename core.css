@@ -841,7 +841,7 @@
     }
     #app-mount .typeWindows__5fa63:after {
         content: "I'm not lazy, I'm just on energy-saving mode";
-        color: rgb(255,255,255,0.5);
+        color: rgb(255,0,0,0.5);
         font-weight: 500;
 
         position: absolute;
