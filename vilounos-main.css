@@ -6,8 +6,6 @@
  * @source https://github.com/vilounos
  */
 
-@import url('https://raw.githack.com/vilounos/MyDiscordTheme/main/transparency2.css');
-    /* Write // at the start of the next line when you want to see video */
 @import url('https://raw.githack.com/vilounos/MyDiscordTheme/main/core.css');
 
 :root {
@@ -29,30 +27,12 @@
     
 
 }
+
 .theme-dark{
     /*change last value from 0.0-1.0 to adjust brightness*/
-  --background-tertiary: rgba(25, 25, 25, 0); 
+  --background-tertiary: rgba(0, 0, 0, 0); 
   --background-primary: transparent;
   --background-secondary: transparent;
   --background-secondary-alt: transparent;
   --channeltextarea-background: transparent;
-  }
-
-  .wrapper-3NnKdC,
-  .scroller-1Bvpku,
-  .app-2rEoOp,
-  .theme-dark .container-1D34oG{
-    background: transparent;
-  }
-
-  .fullscreen-bg video,
-  .fullscreen-bg-video{
-    position: fixed;
-    top: 50%; left: 50%;
-    z-index: -100;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
   }
